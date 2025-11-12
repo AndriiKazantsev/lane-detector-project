@@ -1,0 +1,81 @@
+# -------------------------------
+# Python
+# -------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Compiled libraries
+*.so
+*.dll
+*.dylib
+*.pyd
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Logs and temp files
+*.log
+logs/
+*.tmp
+*.bak
+*.swp
+tmp/
+temp/
+
+# -------------------------------
+# Project data
+# -------------------------------
+# Ignore all raw video data
+data/input/
+data/output/
+
+# Keep example video (small demo clip)
+!data/examples/
+data/examples/*
+!data/examples/example.mp4
+
+# Optional empty folder markers
+!data/input/.gitkeep
+!data/output/.gitkeep
+
+# -------------------------------
+# IDE & Tools
+# -------------------------------
+# PyCharm / JetBrains
+.idea/
+*.iml
+out/
+*.ipr
+*.iws
+
+# VSCode
+.vscode/
+.history/
+
+# -------------------------------
+# OS-specific
+# -------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.Trash-*
