@@ -102,6 +102,7 @@ You can specify any folders:
 
 5. **Visualization** — Draws the lane lines on top of the original frame and saves the video.
 
+
 ## 🧾 Example output
 Example video: https://www.pexels.com/video/a-car-driving-down-a-highway-in-the-desert-28388451/
 
@@ -109,6 +110,16 @@ Example video: https://www.pexels.com/video/a-car-driving-down-a-highway-in-the-
 |--------------------------------|---------------------------------------|
 | ![input](data/examples/example.jpg) | ![output](data/examples/example_lanes.jpg) |
 
+
+### Running on a sample video
+
+1. Download a sample dashcam video (e.g. from the link above).
+2. Put it into `data/input/`.
+3. Run:
+
+   python -m src.lane_detector --input_dir data/input --output_dir data/output
+
+4. Check the processed video in `data/output/`.
 
 ## 📊 Console logs example
 
